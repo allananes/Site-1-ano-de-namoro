@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #ff85a2;
+    color: white;
+    padding: 50px 0;
+}
+
+section {
+    padding: 50px 0;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #6c757d;
+}
+
+.container {
+    text-align: center;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+.container video {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-inner img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+/* Estilize o contêiner do áudio */
+.audio-container {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Estilize o texto */
+.audio-text {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Estilize o botão de reprodução */
+.play-button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilize o botão de reprodução quando o mouse estiver sobre ele */
+.play-button:hover {
+    background-color: #0056b3;
+}
